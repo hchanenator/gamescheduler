@@ -22,7 +22,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  *
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = GameSchedulerMainConfig.class)
+@ContextConfiguration(classes = {GameSchedulerMainConfig.class})
 public class TestGameMaker {
 	private List<Game> games = new ArrayList<Game>();
 	

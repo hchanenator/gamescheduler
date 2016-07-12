@@ -8,7 +8,7 @@ package org.herb.gameschedule.model;
  *
  */
 
-public class Game {
+public class Game implements I_Event {
 
 	private Team homeTeam;
 	private Team awayTeam;
